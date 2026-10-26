@@ -4,8 +4,8 @@
   "description": "REST API for managing student biodata with Express and PostgreSQL",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --watch --env-file=.env src/server.js"
   },
   "keywords": [],
   "author": "",
